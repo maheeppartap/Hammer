@@ -1,4 +1,4 @@
-# Lightning
+# Hammer - Fault Localization and Automatic Program repair
 
 Welcome!
 
