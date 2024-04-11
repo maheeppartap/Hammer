@@ -37,7 +37,8 @@ bool foo(int a, int b, int c)
   }
 }
 ```
-and some set of test cases T1, T2, T3, T4, T5, T6, we analyze every single line that executes for every single test case, and generate a IR in the form of a "coverage matrix". This looks like the following:\n
+and some set of test cases T1, T2, T3, T4, T5, T6, we analyze every single line that executes for every single test case, and generate a IR in the form of a "coverage matrix". This looks like the following:
+
 ![image](https://github.com/maheeppartap/Hammer/assets/44275375/774cf0ff-2b4a-4199-9b55-6b1385acd4d2)
 
 Using this coverage matrix, we apply the following formulas after developing some variables
