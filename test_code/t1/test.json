@@ -1,0 +1,63 @@
+{
+    "test_case_name": "test 1",
+    "compile_script": "/home/beepboop/projects/lightning-2/test_code/t1/compile.sh",
+    "path" : "/home/beepboop/projects/lightning-2/test_code/t1/",
+    "gcov_path": "/home/beepboop/projects/lightning-2/test_code/t1/t1.cpp.gcov",
+    "project_directory": "/home/beepboop/projects/lightning-2/",
+    "tests": [
+        {
+            "id": 1,
+            "name": "execution 1",
+            "compile": "yes",
+            "command": "/home/beepboop/projects/lightning-2/test_code/t1/t1 1 2 3",
+            "expected_output": "1",
+            "generate_report": "gcov /home/beepboop/projects/lightning-2/test_code/t1/t1.cpp",
+            "cleanup": "/home/beepboop/projects/lightning-2/test_code/t1/cleanup.sh"
+        },
+        {
+            "id": 2,
+            "name": "execution 2",
+            "compile": "yes",
+            "command": "/home/beepboop/projects/lightning-2/test_code/t1/t1 1 2 11",
+            "expected_output": "4",
+            "generate_report": "gcov /home/beepboop/projects/lightning-2/test_code/t1/t1.cpp",
+            "cleanup": "/home/beepboop/projects/lightning-2/test_code/t1/cleanup.sh"
+        },
+        {
+            "id": 3,
+            "name": "execution 3",
+            "compile": "yes",
+            "command": "/home/beepboop/projects/lightning-2/test_code/t1/t1 1 2 11",
+            "expected_output": "4",
+            "generate_report": "gcov /home/beepboop/projects/lightning-2/test_code/t1/t1.cpp",
+            "cleanup": "/home/beepboop/projects/lightning-2/test_code/t1/cleanup.sh"
+        },
+        {
+            "id": 4,
+            "name": "execution 4",
+            "compile": "yes",
+            "command": "/home/beepboop/projects/lightning-2/test_code/t1/t1 1 2 3",
+            "expected_output": "1",
+            "generate_report": "gcov /home/beepboop/projects/lightning-2/test_code/t1/t1.cpp",
+            "cleanup": "/home/beepboop/projects/lightning-2/test_code/t1/cleanup.sh"
+        },
+        {
+            "id": 4,
+            "name": "execution 4",
+            "compile": "yes",
+            "command": "/home/beepboop/projects/lightning-2/test_code/t1/t1 1 2 3",
+            "expected_output": "1",
+            "generate_report": "gcov /home/beepboop/projects/lightning-2/test_code/t1/t1.cpp",
+            "cleanup": "/home/beepboop/projects/lightning-2/test_code/t1/cleanup.sh"
+        },
+        {
+            "id": 4,
+            "name": "execution 4",
+            "compile": "yes",
+            "command": "/home/beepboop/projects/lightning-2/test_code/t1/t1 1 2 3",
+            "expected_output": "1",
+            "generate_report": "gcov /home/beepboop/projects/lightning-2/test_code/t1/t1.cpp",
+            "cleanup": "/home/beepboop/projects/lightning-2/test_code/t1/cleanup.sh"
+        }
+    ]
+}
