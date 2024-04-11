@@ -22,3 +22,8 @@ For now, only the fault localization is working. Given some C++ code, and some t
 out of all these D* is the best performing ones. If you're reading this now, you are more than welcome to use any of these, but keep in mind, this is always evolving!
 
 The next step is to implement a good code mutation tool that can alter the source code to find something that passes the given constriants, and/or satisfies some heuristic. 
+
+
+## Pre-reqs
+- You will need Python
+- `gcov` - This is a code coverage tool
